@@ -1,177 +1,368 @@
 
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Bohan Zhang's Homepage</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bohan Zhang - Ph.D. Candidate in Information Science</title>
+    
+    <!-- Modern CSS Reset and Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Serif+Pro:wght@400;600&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <!-- <link rel="stylesheet" href="stylesheets/font-awesome.min.css"> -->
-    <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Bohan Zhang - Ph.D. Candidate at University of Michigan School of Information, researching personalization of LLMs, causal inference, and human-AI collaboration.">
+    <meta name="author" content="Bohan Zhang">
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <img src="files/DSCF0343.JPG" alt="alt qtext" width="300px" height="198px" />
-        <!--<img src="files/our_pic.jpeg" alt="alt qtext" width="170px" height="120.08px" />-->
-        <h1>Bohan Zhang</h1>
-        <h1>张博涵</h1>
-        <a href="files/resume.pdf" target="_blank">CV</a>
-        <!-- <ul>
-          <li><a href="https://github.com/XMUBQ">Github</a></li>
-        </ul> -->
-        
-      </header>
-      <section>
-        <h2 id="about">About Me</h2>
-
-        <!-- <p><img src="img/myself-band.jpg"></img></p> -->
-
-        <p>I am a Ph.D. student at the <a href="https://https://www.si.umich.edu/">School of Information</a> of <a href="https://umich.edu/">University of Michigan</a> advised by Professor <a href="http://pdhillon.com/">Paramveer Dhillon</a>. Also, I am honored to work closely with Professor<a href="http://www-personal.umich.edu/~qmei/"> Qiaozhu Mei</a> and <a href="https://yixinwang.github.io/">Yixin Wang</a>. Before that, I earned my B.S. degree in Computer Science from <a href="https://cse.osu.edu/">The Ohio State University</a>, transferred from the <a href="https://information.xmu.edu.cn/">School of Informatics</a> at Xiamen University where I majored in Computer Science and Technology. I've also been lucky to work with Professor <a href="https://jurgens.people.si.umich.edu/">David Jurgens</a> at <a href="https://blablablab.si.umich.edu/."> Blablablab</a> and Professor <a href="http://faculty.cse.tamu.edu/huangrh/">Ruihong Huang</a> in Texas A&M University.</p>
-        <p>I am broadly interested in natural language processing, machine learning, causal inference, human-AI collaboration, and computational social science. </p>
-        
-        
-        
-        
-        <br>
-        <h2 id="publication">Publication</h2>
-
-        <ul class="pub">
-          
-          <li>Causal Inference for Human-Language Model Collaboration <a href="https://xmubq.github.io/files/dtr_text_paper.pdf">&#128279</a><br>
-          <b>Bohan Zhang</b>, Yixin Wang, Paramveer Dhillon<br>
-          Forthcoming In Main Conference of NAACL 2024<br>
-          </li>
-
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-brand">
+          <a href="#home">Bohan Zhang</a>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
 
-        <ul class="pub">
-          
-          <li>Classification without (Proper) Representation: Political Heterogeneity in Social Media and Its Implications for Classification and Behavioral Analysis <a href="https://aclanthology.org/2022.findings-acl.43.pdf">&#128279</a><br>
-          Kenan Alkiek, <b>Bohan Zhang</b>, David Jurgens<br>
-          In Findings of ACL 2022<br>
-          </li>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-image">
+            <img src="files/north_cascade_optimized.jpg" alt="Bohan Zhang" />
+          </div>
+          <div class="hero-text">
+            <h1 class="hero-title">
+              Bohan Zhang
+              <span class="chinese-name">张博涵</span>
+            </h1>
+            <p class="hero-subtitle">Ph.D. Candidate in Information Science</p>
+            <p class="hero-affiliation">University of Michigan</p>
+            <!-- <div class="hero-links">
+              <a href="files/resume.pdf" target="_blank" class="btn btn-primary">CV</a>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
 
-        </ul>
-
-        <ul class="pub">
-          
-          <li>Predicting Sentence Deletions for Text Simplification Using a Functional Discourse Structure <a href="https://aclanthology.org/2022.acl-short.28.pdf">&#128279</a> <br>
-          <b>Bohan Zhang</b>, Prafulla Kumar Choubey, Ruihong Huang<br>
-          In Main Conference of ACL 2022<br>
-          </li>
-
-        </ul>
-
-        <ul class="pub">
-          
-          <li>CoGT: Ensemble machine learning method and its application on JAK inhibitor discovery <a href="https://pubs.acs.org/doi/full/10.1021/acsomega.3c00160">&#128279</a> <br>
-          Yingzi Bu<sup>*</sup>, Ruoxi Gao<sup>*</sup>, <b>Bohan Zhang<sup>*</sup></b>, Luchen Zhang, Duxin Sun<br>
-          ACS Omega 2023<br>
-          </li>
-
-        </ul>
-
-
-        <h2 id="poster">Poster Presentation</h2>
-
-        <ul class="poster">
-          
-          <li>Ranking & Reweighting Improves Group Distributional Robustness <a href="https://arxiv.org/pdf/2305.05759.pdf">&#128279</a> <br>
-          Yachuan Liu<sup>*</sup>, <b>Bohan Zhang<sup>*</sup></b>, Qiaozhu Mei, Paramveer Dhillon<br>
-          Midwest Machine Learning Symposium 2023<br>
-          </li>
-
-        </ul>
-        
-        <h2 id="edu">Education</h2>
-
-        <ul>
-            <li> <a href="https://www.si.umich.edu/">University of Michigan</a>
-            <br>
-            <b> Ph.D. in Information Science </b>
-            <br>
-            <em>Aug. 2022 -- Present</em>
-            </li>
+    <!-- Main Content -->
+    <main class="main-content">
+      <div class="container">
+        <!-- About Section -->
+        <section id="about" class="section">
+          <div class="section-header">
+            <h2>About Me</h2>
+          </div>
+          <div class="section-content">
+            <p>I am a Ph.D. Candidate at the <a href="https://www.si.umich.edu/">School of Information</a> of 
+            <a href="https://umich.edu/">University of Michigan</a> advised by Professor 
+            <a href="http://pdhillon.com/">Paramveer Dhillon</a>. Also, I am honored to work closely with 
+            Professor <a href="https://yixinwang.github.io/">Yixin Wang</a>. Before that, I earned my B.S. degree in 
+            Computer Science from <a href="https://cse.osu.edu/">The Ohio State University</a>, transferred from 
+            the <a href="https://information.xmu.edu.cn/">School of Informatics</a> at Xiamen University. 
+            I've also been lucky to work with Professor 
+            <a href="https://jurgens.people.si.umich.edu/">David Jurgens</a> at 
+            <a href="https://blablablab.si.umich.edu/."> Blablablab</a> and Professor 
+            <a href="http://faculty.cse.tamu.edu/huangrh/">Ruihong Huang</a> in Texas A&M University.</p>
             
-            <li> <a href="https://cse.engin.umich.edu/">University of Michigan</a>
-            <br>
-            <b> M.S. in Computer Science and Engineering </b> 
-            <br>
-            <em>Aug. 2020 -- Apr. 2022</em>
-            </li>
-
-            <li> <a href="https://www.osu.edu/">The Ohio State University</a> 
-            <br>
-            <b> B.S. in Computer Science </b> 
-            <br>
-            <b> Minor in Linguistics </b>
-            <br>
-            <em>Aug. 2017 -- May 2020</em>
-            </li>
-
-            <li> <a href="https://en.xmu.edu.cn/">Xiamen University</a> 
-            <br>
-            <b> Major in Computer Science and Technology (Transferred out)</b> 
-            <br>
-            <em>Aug. 2015 -- July. 2017</em>
-            </li>
-        </ul>
+            <p>I am broadly interested in <strong>personalization of LLMs</strong>, <strong>causal inference</strong>, 
+            <strong>human-AI collaboration</strong>, and <strong>machine learning</strong>. 
+            For more details, please check out my <a href="files/resume.pdf" target="_blank">CV</a>.</p>
+          </div>
+        </section>
         
-        <br>
-        <h2 id="experience">Working Experience</h2>
         
-        <ul>
-          <li> <a href="https://www.initium.ai/">Initium. AI</a>
-          <br>
-          <b> Machine Learning Software Engineering Intern </b>
-          <br>
-          <em>May 2021 -- Aug 2021</em>
-          </li>
-        </ul>
-      
-        <ul>
-            <li> <a href="https://www.osu.edu/">The Ohio State University</a>
-            <br>
-            <b> Student Instructor Assistant </b> of CSE2421: Introduction to Low-level Programming and Computer Organization
-            <br>
-            <em>Jan 2019 -- May 2020</em>
-            </li>
-        </ul>
-        <br>
-
-        <h2 id="achievement">Service</h2>
-
-        <ul class="ach">
-          <li>
-              Regular Reviewer for *CL, WWW, KDD.
-          </li>
-        </ul>
-
-
-        <h2 id="misc">Misc</h2>
-        <p style="font-size:20px">&#127936; &#127946; &#126980; &#128675;</p>
-        <br>
-
-        <h2 id="contact">Contact</h2>
-
-        <p><a href="mailto:zbohan@umich.edu">Email</a></p>
         
+        
+        <!-- Publications Section -->
+        <section id="publications" class="section">
+          <div class="section-header">
+            <h2>Publications</h2>
+          </div>
+          <div class="section-content">
+            <div class="publication-list">
 
+              <div class="publication-item">
+                <h3 class="pub-title">
+                  <a href="https://xmubq.github.io/files/dtr_text_paper.pdf" target="_blank">
+                    Causal Inference for Human-Language Model Collaboration
+                  </a>
+                </h3>
+                <p class="pub-authors"><strong>Bohan Zhang</strong>, Yixin Wang, Paramveer Dhillon</p>
+                <p class="pub-venue">NAACL 2024 (Main Conference)</p>
+                <p class="pub-description">Introduce the Incremental Stylistic Effect and the CausalCollab algorithm to measure and leverage the causal impact of human editing styles in human-language model collaboration.</p>
+              </div>
 
+              <div class="publication-item">
+                <h3 class="pub-title">
+                  <a href="https://aclanthology.org/2022.findings-acl.43.pdf" target="_blank">
+                    Classification without (Proper) Representation: Political Heterogeneity in Social Media and Its Implications for Classification and Behavioral Analysis
+                  </a>
+                </h3>
+                <p class="pub-authors">Kenan Alkiek, <strong>Bohan Zhang</strong>, David Jurgens</p>
+                <p class="pub-venue">ACL 2022 (Findings)</p>
+                <p class="pub-description">Investigate how politically active users on social media can differ widely depending on how they are defined, and shows that such heterogeneity poses challenges for building robust classification models and for understanding user behavior.</p>
+              </div>
+
+              <div class="publication-item">
+                <h3 class="pub-title">
+                  <a href="https://link.springer.com/chapter/10.1007/978-981-96-8180-8_16" target="_blank">
+                    Exploring Group-Level Signals for Robust Many-Domain Generalization
+                  </a>
+                </h3>
+                <p class="pub-authors"><strong>Bohan Zhang</strong>, Yachuan Liu, Qiaozhu Mei, Paramveer Dhillon</p>
+                <p class="pub-venue">PAKDD 2025</p>
+                <p class="pub-description">Propose a group-wise reweighting strategy using features like label entropy, representation statistics, and gradient properties to improve worst-group and tail performance for many-domain generalization.</p>
+              </div>
+
+              <div class="publication-item">
+                <h3 class="pub-title">
+                  <a href="https://aclanthology.org/2022.acl-short.28.pdf" target="_blank">
+                    Predicting Sentence Deletions for Text Simplification Using a Functional Discourse Structure
+                  </a>
+                </h3>
+                <p class="pub-authors"><strong>Bohan Zhang</strong>, Prafulla Kumar Choubey, Ruihong Huang</p>
+                <p class="pub-venue">ACL 2022 (Main Conference)</p>
+                <p class="pub-description">Propose a novel approach for text simplification that leverages functional discourse structure to predict which sentences should be deleted for clarity.</p>
+              </div>
+
+              <div class="publication-item">
+                <h3 class="pub-title">
+                  <a href="https://pubs.acs.org/doi/full/10.1021/acsomega.3c00160" target="_blank">
+                    CoGT: Ensemble machine learning method and its application on JAK inhibitor discovery
+                  </a>
+                </h3>
+                <p class="pub-authors">Yingzi Bu<sup>*</sup>, Ruoxi Gao<sup>*</sup>, <strong>Bohan Zhang<sup>*</sup></strong>, Luchen Zhang, Duxin Sun</p>
+                <p class="pub-venue">ACS Omega 2023</p>
+                <p class="pub-description">We develop an ensemble machine learning framework for drug discovery, specifically targeting JAK inhibitors with improved prediction accuracy and interpretability.</p>
+              </div>
+
+            </div>
+            
+            <div class="more-publications">
+              <p><a href="files/resume.pdf" target="_blank" class="more-link">More publications in CV →</a></p>
+            </div>
+            
+          </div>
+        </section>
+        
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+          <div class="section-header">
+            <h2>Working Experience</h2>
+          </div>
+          <div class="section-content">
+            <div class="experience-list">
+              
+              <div class="experience-item">
+                <div class="exp-header">
+                  <h3 class="exp-title">Applied Scientist Intern</h3>
+                  <span class="exp-date">Mar 2025 - Oct 2025</span>
+                </div>
+                <p class="exp-company">Stores Economics and Science (SEAS), Amazon</p>
+                <p class="exp-description">Designed LLM-based framework aligning LLM-generated synthetic responses with small-scale
+                  human data for reliable economic inference.</p>
+              </div>
+
+              <div class="experience-item">
+                <div class="exp-header">
+                  <h3 class="exp-title">Machine Learning Software Engineering Intern</h3>
+                  <span class="exp-date">May 2021 - Aug 2021</span>
+                </div>
+                <p class="exp-company"><a href="https://www.initium.ai/" target="_blank">Initium.AI</a></p>
+                <p class="exp-description">Deploy action sentence detection model for real-world applications with limited labels.</p>
+              </div>
+
+              <div class="experience-item">
+                <div class="exp-header">
+                  <h3 class="exp-title">Student Instructor Assistant</h3>
+                  <span class="exp-date">Jan 2019 - May 2020</span>
+                </div>
+                <p class="exp-company"><a href="https://www.osu.edu/" target="_blank">The Ohio State University</a></p>
+              </div>
+
+            </div>
+          </div>
+        </section>
+        
+        <!-- Education Section -->
+        <section id="education" class="section">
+          <div class="section-header">
+            <h2>Education</h2>
+          </div>
+          <div class="section-content">
+            <div class="education-list">
+              
+              <div class="education-item">
+                <div class="edu-header">
+                  <h3 class="edu-degree">Ph.D. in Information Science</h3>
+                  <span class="edu-date">Aug 2022 - Present</span>
+                </div>
+                <p class="edu-school"><a href="https://www.si.umich.edu/" target="_blank">University of Michigan</a></p>
+              </div>
+
+              <div class="education-item">
+                <div class="edu-header">
+                  <h3 class="edu-degree">M.S. in Computer Science and Engineering</h3>
+                  <span class="edu-date">Aug 2020 - Apr 2022</span>
+                </div>
+                <p class="edu-school"><a href="https://cse.engin.umich.edu/" target="_blank">University of Michigan</a></p>
+              </div>
+
+              <div class="education-item">
+                <div class="edu-header">
+                  <h3 class="edu-degree">B.S. in Computer Science</h3>
+                  <span class="edu-date">Aug 2017 - May 2020</span>
+                </div>
+                <p class="edu-school"><a href="https://www.osu.edu/" target="_blank">The Ohio State University</a></p>
+                <p class="edu-minor">Minor in Linguistics</p>
+              </div>
+
+              <div class="education-item">
+                <div class="edu-header">
+                  <h3 class="edu-degree">Computer Science and Technology</h3>
+                  <span class="edu-date">Aug 2015 - Jul 2017</span>
+                </div>
+                <p class="edu-school"><a href="https://en.xmu.edu.cn/" target="_blank">Xiamen University</a></p>
+              </div>
+
+            </div>
+          </div>
+        </section>
+        
+        <!-- Teaching Section -->
+        <section id="teaching" class="section">
+          <div class="section-header">
+            <h2>Teaching</h2>
+          </div>
+          <div class="section-content">
+            <div class="teaching-list">
+              <div class="teaching-item">
+                <p>SI 671: Data Mining, University of Michigan</p>
+              </div>
+              <div class="teaching-item">
+                <p>SI 315: Models of Social Information Processing, University of Michigan</p>
+              </div>
+              <div class="teaching-item">
+                <p>CSE 2421: Introduction to Low-level Programming and Computer Organization, Ohio State University</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Service Section -->
+        <section id="service" class="section">
+          <div class="section-header">
+            <h2>Service</h2>
+          </div>
+          <div class="section-content">
+            <div class="service-list">
+              <div class="service-item">
+                <p>Regular Reviewer for *CL, WWW, KDD</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+          <div class="section-header">
+            <h2>Contact</h2>
+          </div>
+          <div class="section-content">
+            <div class="contact-info">
+              <p class="email-contact">
+                <span class="email-label">Email:</span>
+                <span class="email-display">zbohan [at] umich [dot] edu</span>
+                <!-- <button class="email-reveal-btn" onclick="revealEmail()">Click to reveal email</button> -->
+                <span class="email-hidden" style="display: none;">
+                  <a href="mailto:zbohan@umich.edu">zbohan@umich.edu</a>
+                </span>
+              </p>
+              <div class="misc-icons">
+                <span style="font-size:24px;">🏀 🏊 🀄️ 🚣</span>
+              </div>
+            </div>
+          </div>
       </section>
 
-      <footer>
-        <p><small>Theme: <a href="https://github.com/orderedlist/minimal">minimal</a>.</small></p>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 Bohan Zhang. Built with modern web technologies.</p>
+      </div>
       </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
+
+    <!-- JavaScript for Navigation -->
     <script>
+      // Mobile navigation toggle
+      const hamburger = document.querySelector('.hamburger');
+      const navMenu = document.querySelector('.nav-menu');
+      
+      if (hamburger && navMenu) {
+        hamburger.addEventListener('click', () => {
+          hamburger.classList.toggle('active');
+          navMenu.classList.toggle('active');
+        });
+      }
+
+      // Smooth scrolling for navigation links
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute('href'));
+          if (target) {
+            target.scrollIntoView({
+              behavior: 'smooth',
+              block: 'start'
+            });
+          }
+        });
+      });
+
+      // Close mobile menu when clicking on a link
+      document.querySelectorAll('.nav-menu a').forEach(link => {
+        link.addEventListener('click', () => {
+          if (hamburger && navMenu) {
+            hamburger.classList.remove('active');
+            navMenu.classList.remove('active');
+          }
+        });
+      });
+
+      // Email reveal function
+      function revealEmail() {
+        const displaySpan = document.querySelector('.email-display');
+        const button = document.querySelector('.email-reveal-btn');
+        const hiddenSpan = document.querySelector('.email-hidden');
+        
+        displaySpan.style.display = 'none';
+        button.style.display = 'none';
+        hiddenSpan.style.display = 'inline';
+      }
+
+      // Google Analytics
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
